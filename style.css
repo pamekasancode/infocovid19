@@ -1,0 +1,101 @@
+/* 
+
+Pallet color
+red: #E91E63
+green: #00BCD4
+blue: #03A9F4
+
+*/
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 2px 12px #ddd;
+}
+
+.navbar button {
+  outline: none;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header p {
+  margin-top: -10px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 2px 2px 10px #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 0 !important;
+
+}
+
+.card p {
+  color: #888;
+}
+
+.positif {
+  border-left: 5px solid #E91E63;
+}
+
+.meninggal {
+  border-left: 5px solid  #00BCD4;
+}
+
+.sembuh {
+  border-left: 5px solid #03A9F4;
+}
+
+.positif h2 {
+  color: #E91E63;
+}
+
+.meninggal h2 {
+  color: #00BCD4;
+}
+
+.sembuh h2 {
+  color: #03A9F4;
+}
+
+#positif {
+  color: #E91E63;
+}
+
+#meninggal {
+  color: #00BCD4;
+}
+
+#sembuh {
+  color: #03A9F4;
+}
+
+.preloader {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  z-index: 999;
+  text-align: center;
+}
+
+.preloader .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.preloader img {
+  width: 100%;
+}
